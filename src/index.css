@@ -1,11 +1,16 @@
-:root {
-  --background: #f4f8f7;
-  --surface: #e9f1f0;
-  --primary: #2d4a47;
-  --secondary: #5c7f7b;
-  --accent-mint: #cce7e1;
-  --accent-ice: #d6e6f2;
-  --text-main: #1a2624;
-  --text-muted: #556663;
-  --border: #dbe5e3;
+
+@import "tailwindcss";
+
+@theme {
+  --color-golden0: #D4A32A;
+  --color-golden1: #E8B63A;
+  --color-background: #f4f8f7;
+  --color-surface: #e9f1f0;
+  --color-primary: #2d4a47;
+  --color-secondary: #5c7f7b;
+  --color-accent-mint: #cce7e1;
+  --color-accent-ice: #d6e6f2;
+  --color-text-main: #1a2624;
+  --color-text-muted: #556663;
+  --color-border: #dbe5e3;
 }

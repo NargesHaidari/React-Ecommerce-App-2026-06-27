@@ -202,6 +202,109 @@ export const shoes = [
   }
 ];
 
+export const electronics = [
+  {
+    id: 29,
+    title: "Apple Watch",
+    price: 399.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Apple-Watch.png"
+  },
+  {
+    id: 30,
+    title: "iMac Desktop",
+    price: 1299.00,
+    category: "electronics",
+    image: "../src/assets/electronics/iMac-Desktop.png"
+  },
+  {
+    id: 31,
+    title: "Apple Pro Display",
+    price: 1499.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Apple-Pro-Display.png"
+  },
+  {
+    id: 32,
+    title: "Smart TV",
+    price: 89.99,
+    category: "electronics",
+    image: "../src/assets/electronics/Smart-TV.png"
+  },
+  {
+    id: 33,
+    title: "Dell XPS Laptop",
+    price: 1399.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Dell-XPS.png"
+  },
+  {
+    id: 34,
+    title: "Wireless Headphones",
+    price: 65.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Wireless-Headphones.png"
+  },
+  {
+    id: 35,
+    title: "iPhone 16 Pro",
+    price: 999.00,
+    category: "electronics",
+    image: "../src/assets/electronics/iPhone-16.png"
+  },
+  {
+    id: 36,
+    title: "MacBook Air",
+    price: 1099.00,
+    category: "electronics",
+    image: "../src/assets/electronics/MacBook-Air.png"
+  },
+  {
+    id: 37,
+    title: "Smart Watch",
+    price: 49.99,
+    category: "electronics",
+    image: "../src/assets/electronics/Smart Watch.png"
+  },
+  {
+    id: 38,
+    title: "Studio Headphones",
+    price: 199.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Studio-Headphones.png"
+  },
+  {
+    id: 39,
+    title: "Gaming Headphones",
+    price: 129.99,
+    category: "electronics",
+    image: "../src/assets/electronics/Gaming-Headphones.png"
+  },
+  {
+    id: 40,
+    title: "Apple HomePod",
+    price: 299.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Apple-HomePod.png"
+  },
+  {
+    id: 41,
+    title: "Samsung Galaxy",
+    price: 899.99,
+    category: "electronics",
+    image: "../src/assets/electronics/Samsung-Galaxy.png"
+  },
+  {
+    id: 42,
+    title: "Sony Headphones",
+    price: 348.00,
+    category: "electronics",
+    image: "../src/assets/electronics/Sony-Headphones.png"
+  }
+];
+
+
+
 
 
 
