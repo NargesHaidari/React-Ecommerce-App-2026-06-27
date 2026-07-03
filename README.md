@@ -11,6 +11,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Tailwind CSS Integration
 * Custom Color Theme
 * Home page hero section
+* Featured Products Section
 
 ## Planned Features
 * Women's & Men's Fashion

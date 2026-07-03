@@ -7,7 +7,7 @@ let navLink = "relative after:content-[''] after:absolute after:-bottom-1 after:
 export default function Header(){
     return (
         <header>
-            <nav className='bg-white h-20 shadow-md flex justify-around fixed left-0 right-0 top-0'>
+            <nav className='bg-white z-50 h-20 shadow-md flex justify-around fixed left-0 right-0 top-0'>
                 <div className='h-full inline-flex items-center'><img src={logo} alt="Logo-Image" className='h-3/4' /></div>
 
                 <ul className='hidden lg:flex gap-6 items-center text-2xl text-camel font-semibold'>

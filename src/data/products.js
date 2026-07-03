@@ -13,7 +13,7 @@ export const clothes = [
     title: "Yellow Crop Set",
     price: 59.99,
     category: "clothes",
-    image: "../src/assets/clothes/dom-hill-nimElTcTNyY-unsplash.png"
+    image: "../src/assets/clothes/Yellow-Crop-Set.jpg"
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ export const shoes = [
     title: "Retro Skate Sneakers",
     price: 89.99,
     category: "shoes",
-    image: "../src/assets/shoes/alex-quezada-qAyOt0aGsCo-unsplash.png"
+    image: "../src/assets/shoes/Retro-Skate-Sneakers.png"
   },
   {
     id: 18,
@@ -135,14 +135,14 @@ export const shoes = [
     title: "Classic Canvas High",
     price: 60.00,
     category: "shoes",
-    image: "../src/assets/shoes/images.png"
+    image: "../src/assets/shoes/Classic-Canvas-High.png"
   },
   {
     id: 20,
-    title: "Minimalist Pink Sneaker",
+    title: "Minimalist Sneaker",
     price: 65.00,
     category: "shoes",
-    image: "../src/assets/shoes/irene-kredenets-dwKiHoqqxk8-unsplash.png"
+    image: "../src/assets/shoes/Minimalist-Sneaker.png"
   },
   {
     id: 21,
@@ -264,7 +264,7 @@ export const electronics = [
     title: "Smart Watch",
     price: 49.99,
     category: "electronics",
-    image: "../src/assets/electronics/Smart Watch.png"
+    image: "../src/assets/electronics/Smart-Watch.png"
   },
   {
     id: 38,
