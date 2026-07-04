@@ -1,11 +1,13 @@
-import ProductCard from "./ProductCard";
+import FeaturedProducts from "./FeaturedProducts";
+import Categories from "./Categories";
 
 
 
 export default function Main(){
     return (
         <main className="w-full">
-            <ProductCard/>
+            <FeaturedProducts/>
+            <Categories/>
         </main>
     )
 }

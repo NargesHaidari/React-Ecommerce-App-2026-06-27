@@ -12,6 +12,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Custom Color Theme
 * Home page hero section
 * Featured Products Section
+* Shop by Category (in progress)
 
 ## Planned Features
 * Women's & Men's Fashion
@@ -40,6 +41,7 @@ Will Add a screenshot.
 * JavaScript (ES6+)
 * HTML5
 * CSS3
+* UUID
 
 ---
 
