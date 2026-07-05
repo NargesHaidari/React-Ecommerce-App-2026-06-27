@@ -1,5 +1,6 @@
 
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @theme {
   --color-golden0: #D4A32A;

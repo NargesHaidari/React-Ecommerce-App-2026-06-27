@@ -13,12 +13,9 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Home page hero section
 * Featured Products Section
 * Shop by Category (in progress)
+* Implement special offers section
 
 ## Planned Features
-* Women's & Men's Fashion
-* Shoes Collection
-* Electronics
-* Home & Living
 * Product Search
 * Wishlist
 * Shopping Cart

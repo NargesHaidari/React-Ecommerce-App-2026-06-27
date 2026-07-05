@@ -1,5 +1,6 @@
 import FeaturedProducts from "./FeaturedProducts";
 import Categories from "./Categories";
+import SpecialOffers from "./SpecialOffers";
 
 
 
@@ -8,6 +9,7 @@ export default function Main(){
         <main className="w-full">
             <FeaturedProducts/>
             <Categories/>
+            <SpecialOffers/>
         </main>
     )
 }
