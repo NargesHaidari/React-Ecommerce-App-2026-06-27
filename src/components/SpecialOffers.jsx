@@ -6,7 +6,7 @@ let feaureStyle = 'flex gap-2 text-[11px] items-center'
 
 export default function SpecialOffers(){
     return (
-        <div className="w-[50vw] h-[500px] flex flex-col gap-3 items-start  py-20 px-12 rounded-2xl ml-auto bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${specialOffer})`}}>
+        <div className="w-[50vw] h-[500px] inline-flex flex-col gap-3 items-start  py-20 px-12 rounded-lg bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${specialOffer})`}}>
             
             <h3 className='text-camel font-semibold tracking-widest'>SPECIAL OFFER</h3>
             <p className='text-black text-6xl font-bold' style={{ fontFamily: "Bebas Neue" }}>30% OFF</p>
