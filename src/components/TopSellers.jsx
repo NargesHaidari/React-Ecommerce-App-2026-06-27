@@ -11,7 +11,7 @@ export default function TopSellers(){
             <div className="w-full inline-grid grid-cols-4 gap-2">
             {
                 topSellers.map((item)=>(
-                    <div className="h-[200px] w-[170px] border-[4px] overflow-hidden border-camel/50 rounded-lg  ">
+                    <div className="h-[200px] w-[170px]  overflow-hidden rounded-lg  ">
                         <img key={item.key} className="hover:scale-110 duration-200 transition-all h-full w-full object-center object-cover" src={item.image} alt="product-image" />
                     </div>
                 ))
