@@ -19,10 +19,10 @@ export default function Header(){
                 </ul>
 
                 <div className='inline-flex gap-2 items-center md:gap-4'>
-                    <i className="fa-solid fa-magnifying-glass hover:text-camel cursor-pointer"></i>
-                    <i className="fa-sharp fa-solid fa-heart hover:text-camel cursor-pointer"></i>
-                    <i className="fa-solid fa-cart-shopping hover:text-camel cursor-pointer"></i>
-                    <i className="fa-solid fa-bars !lg:hidden hover:text-camel cursor-pointer"></i>
+                    <i className="fa-solid fa-magnifying-glass hover:text-camel cursor-pointer transition-all duration-200"></i>
+                    <i className="fa-sharp fa-solid fa-heart hover:text-camel cursor-pointer transition-all duration-200"></i>
+                    <i className="fa-solid fa-cart-shopping hover:text-camel cursor-pointer transition-all duration-200"></i>
+                    <i className="fa-solid fa-bars lg:!hidden hover:text-camel transition-all duration-200 cursor-pointer"></i>
                 </div>
             </nav>
 

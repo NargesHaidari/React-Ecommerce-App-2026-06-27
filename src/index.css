@@ -17,3 +17,20 @@
   --color-camel:#B8864A;
   --color-warmCream:#F9EFE4;
 }
+
+@theme {
+  --breakpoint-330: 330px;
+  --breakpoint-400: 400px;
+  --breakpoint-500: 500px;
+  --breakpoint-600: 600px;
+  --breakpoint-700: 700px;
+  --breakpoint-800: 800px;
+  --breakpoint-900: 900px;
+  --breakpoint-1000: 1000px;
+  --breakpoint-1100: 1100px;
+  --breakpoint-1200: 1200px;
+  --breakpoint-1300: 1300px;
+  --breakpoint-1400: 1400px;
+  --breakpoint-1500: 1500px;
+  --breakpoint-1600: 1600px;
+}

@@ -16,6 +16,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Implement special offers section
 * Implement top sellers section
 * Add website footer
+* Responsive Featured Products and Shop by Category Sections
 
 ## Planned Features
 * Product Search
