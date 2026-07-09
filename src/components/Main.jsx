@@ -10,10 +10,10 @@ export default function Main(){
         <main className="w-full">
             <FeaturedProducts/>
             <Categories/>
-            <div className="flex justify-between mb-20">
+            {/* <div className="flex justify-between mb-20"> */}
                 <TopSellers/>
                 <SpecialOffers/>
-            </div>
+            {/* </div> */}
         </main>
     )
 }
