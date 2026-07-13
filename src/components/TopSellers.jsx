@@ -5,7 +5,7 @@ import { topSellers } from "../data/topSellers";
 
 export default function TopSellers(){
     return (
-        <div className="my-20 mx-4 items-start rounded-lg flex flex-col gap-4 bg-warmCream p-4">
+        <div id="deals" className="scroll-mt-20 my-20 mx-4 items-start rounded-lg flex flex-col gap-4 bg-warmCream p-4">
             <h3 className="font-bold text-4xl text-camel">Top Sellers</h3>
             
             <div className="w-full justify-center flex flex-wrap gap-2">

@@ -5,7 +5,7 @@ let headingThree = 'text-camel font-bold text-3xl mb-4'
 
 export default function Footer(){
     return(
-        <div className='flex flex-wrap gap-8 p-8 border-t-2 border-t-camel mt-40'>
+        <div id='footer' className='scroll-mt-20 flex flex-wrap gap-8 p-8 border-t-2 border-t-camel mt-40'>
            
             <div className="flex-[1] min-w-[150px]">
                 <h3 className={headingThree}>Company</h3>

@@ -34,3 +34,7 @@
   --breakpoint-1500: 1500px;
   --breakpoint-1600: 1600px;
 }
+
+html, body{
+  scroll-behavior: smooth;
+}

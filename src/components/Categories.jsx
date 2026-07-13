@@ -4,7 +4,7 @@ import { categoriesProducts } from '../data/categoriesProducts.js'
 export default function FeaturedProducts(){
         
     return (
-    <div className='my-20 flex flex-col gap-6 items-center px-4'>
+    <div id='categories' className='scroll-mt-20 my-20 flex flex-col gap-6 items-center px-4'>
     <h2 className='text-camel font-semibold text-4xl flex flex-col items-center'><div className='text-gray-500 text-lg'>SHOP BY</div>Categories</h2>
     <p className='text-gray-500 text-lg text-center'>Browse our top categories and find your perfect style</p>
     <div className='w-full flex justify-center gap-2 flex-wrap'>
