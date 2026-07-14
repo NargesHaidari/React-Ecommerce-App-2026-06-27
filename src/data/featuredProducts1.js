@@ -7,7 +7,7 @@ import five from '../assets/featured products/5.png'
 import six from '../assets/featured products/6.png'
 
 
-export const products = [
+export const featuredProducts1 = [
   {
     id: 1,
     title: "AeroFlex Knit Sneakers",
@@ -57,5 +57,3 @@ export const products = [
     image: six
   }
 ];
-
-export default products;

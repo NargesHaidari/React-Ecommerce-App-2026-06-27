@@ -20,6 +20,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Fully responsive landing page
 * Interactive hamburger menu with toggle functionality
 * Add internal navigation links
+* Add React Router Navigation
 
 ## Planned Features
 * Product Search
