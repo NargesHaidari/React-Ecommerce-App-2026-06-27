@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import { categoriesProducts } from '../data/categoriesProducts.js'
 
 export default function FeaturedProducts(){
@@ -15,7 +16,7 @@ export default function FeaturedProducts(){
                     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-black/50 backdrop-blur-md border border-white/10">
                         <i className={`fa-solid ${item.icon} text-white text-2xl`}></i>
                     </div>
-                    <a href="" className='text-white text-2xl hover:scale-105 transition-all duration-200 active:scale-100'>{item.category}</a>
+                    <Link to={item.path} className='text-white text-2xl hover:scale-105 transition-all duration-200 active:scale-100'>{item.category}</Link>
                     <a href="" className='text-camel hover:text-white transition-all duration-200 active:scale-95'>Shop now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>

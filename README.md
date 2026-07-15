@@ -21,6 +21,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Interactive hamburger menu with toggle functionality
 * Add internal navigation links
 * Add React Router Navigation
+* Added navigation from Categories to Clothing page
 
 ## Planned Features
 * Product Search
