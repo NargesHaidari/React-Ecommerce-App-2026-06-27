@@ -8,7 +8,7 @@ import six from '../assets/clothing/6.png'
 import seven from '../assets/clothing/7.png'
 import eight from '../assets/clothing/8.png'
 
-const clothing = [
+export const clothing = [
   {
     id: 1,
     title: "Beige Blazer",
@@ -66,5 +66,3 @@ const clothing = [
     image: eight,
   },
 ];
-
-export default clothing
