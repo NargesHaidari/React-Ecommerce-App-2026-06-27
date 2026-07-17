@@ -7,6 +7,7 @@ import Clothing from "./components/Clothing";
 import Shoes from "./components/Shoes";
 import Electronic from "./components/Electronic";
 import HomeLiving from "./components/HomeLiving.jsx";
+import TopSellers2 from "./components/TopSellers2.jsx";
 
 export default function App(){
     return (
@@ -18,6 +19,7 @@ export default function App(){
                 <Route path="/shoes" element={<Shoes />}/>
                 <Route path="/electronics" element={<Electronic />}/>
                 <Route path="/home&living" element={ <HomeLiving />}/>
+                <Route path="/topSellers2" element={<TopSellers2/>} />
             </Routes>
         </Router>
         

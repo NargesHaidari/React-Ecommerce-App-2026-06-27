@@ -23,6 +23,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Add React Router Navigation
 * Added navigation from Categories to Clothing page
 * Create Separate Components for Product Categories
+* Add View All Feature to Top Sellers Section
 
 ## Planned Features
 * Product Search

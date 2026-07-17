@@ -1,7 +1,7 @@
 
 
 import { topSellers } from "../data/topSellers";
-
+import { Link } from "react-router-dom";
 
 export default function TopSellers(){
     return (
@@ -18,7 +18,7 @@ export default function TopSellers(){
             }            
             </div>
 
-            <a href="" className="mr-auto ml-auto border-[2px] py-2 px-4 rounded-lg transition-all duration-300 hover:scale-105 active:scale-100">View All <i class="fa-solid fa-arrow-right"></i></a>
+            <Link to="/topSellers2" className="mr-auto ml-auto border-[2px] py-2 px-4 rounded-lg transition-all duration-300 hover:scale-105 active:scale-100">View All <i class="fa-solid fa-arrow-right"></i></Link>
         </div>
     )
 }
