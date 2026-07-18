@@ -1,4 +1,3 @@
-
 import one from "../assets/shoes/1.png"
 import two from "../assets/shoes/2.png"
 import three from "../assets/shoes/3.png"
@@ -12,70 +11,70 @@ import ten from "../assets/shoes/10.jpg"
 
 export const shoes = [
   {
-    id: 1,
+    id: 17,
     title: "Classic Heels",
     price: 89,
     rating: 4.8,
     image: one,
   },
   {
-    id: 2,
+    id: 18,
     title: "White Sneakers",
     price: 75,
     rating: 4.7,
     image: two,
   },
   {
-    id: 3,
+    id: 19,
     title: "Formal Shoes",
     price: 99,
     rating: 4.9,
     image: three,
   },
   {
-    id: 4,
+    id: 20,
     title: "Block Heels",
     price: 84,
     rating: 4.6,
     image: four,
   },
   {
-    id: 5,
+    id: 21,
     title: "Sport Sneakers",
     price: 79,
     rating: 4.8,
     image: five,
   },
   {
-    id: 6,
+    id: 22,
     title: "Leather Casual",
     price: 92,
     rating: 4.7,
     image: six,
   },
   {
-    id: 7,
+    id: 23,
     title: "Ballet Flats",
     price: 59,
     rating: 4.5,
     image: seven,
   },
   {
-    id: 8,
+    id: 24,
     title: "Suede Loafers",
     price: 88,
     rating: 4.8,
     image: eight,
   },
   {
-    id: 9,
+    id: 25,
     title: "Ballet Flats",
     price: 55,
     rating: 4.5,
     image: nine,
   },
   {
-    id: 10,
+    id: 26,
     title: "Suede Loafers",
     price: 80,
     rating: 4.8,

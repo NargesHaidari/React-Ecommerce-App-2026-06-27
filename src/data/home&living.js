@@ -1,4 +1,3 @@
-
 import one from '../assets/home&living/1.png'
 import two from '../assets/home&living/2.png'
 import three from '../assets/home&living/3.png'
@@ -10,56 +9,56 @@ import eight from '../assets/home&living/8.png'
 
 export const homeLiving = [
   {
-    id: 1,
+    id: 35,
     title: "Flower Vase",
     price: 35,
     rating: 4.6,
     image: one,
   },
   {
-    id: 2,
+    id: 36,
     title: "Table Lamp",
     price: 49,
     rating: 4.9,
     image: two,
   },
   {
-    id: 3,
+    id: 37,
     title: "Cookware Set",
     price: 129,
     rating: 4.8,
     image: three,
   },
   {
-    id: 4,
+    id: 38,
     title: "Coffee Machine",
     price: 149,
     rating: 4.8,
     image: four,
   },
   {
-    id: 5,
+    id: 39,
     title: "Vacuum Cleaner",
     price: 199,
     rating: 4.7,
     image: five,
   },
   {
-    id: 6,
+    id: 40,
     title: "Bedding Set",
     price: 89,
     rating: 4.7,
     image: six,
   },
   {
-    id: 7,
+    id: 41,
     title: "Toaster Oven",
     price: 109,
     rating: 4.5,
     image: seven,
   },
   {
-    id: 8,
+    id: 42,
     title: "Air Purifier",
     price: 179,
     rating: 4.6,
