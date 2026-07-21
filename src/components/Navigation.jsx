@@ -3,6 +3,7 @@
 import logo from '../assets/logo.png'
 import MenuIcon from './MenuIcon'
 import SearchIcon from './SearchIcon'
+import { Link } from 'react-router-dom'
 let navLink = "relative after:content-[''] after:absolute after:-bottom-1 after:w-0 hover:after:w-full hover:cursor-pointer after:h-0.5 after:left-0 after:right-0 after:bg-camel after:transition-all after:duration-300 after:ease-in-out"
 
 export default function Navigation(){
@@ -21,7 +22,7 @@ export default function Navigation(){
             <div className='inline-flex gap-2 items-center md:gap-4'>
                 <SearchIcon/>
                 <i className="fa-sharp fa-solid fa-heart hover:text-camel cursor-pointer transition-all duration-200"></i>
-                <i className="fa-solid fa-cart-shopping hover:text-camel cursor-pointer transition-all duration-200"></i>
+                <Link to="/cart"><i className="fa-solid fa-cart-shopping hover:text-camel cursor-pointer transition-all duration-200"></i></Link>
                 <MenuIcon/>
             </div>
         </nav>

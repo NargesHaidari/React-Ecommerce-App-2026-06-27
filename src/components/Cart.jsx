@@ -1,37 +1,9 @@
 
-import shoes from '../assets/2.png'
-import mobile from '../assets/3.png'
-import headphones from '../assets/4.png'
-import { useState } from 'react'
+import { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { CartContext } from './context/CartContext'
 
 let btnStyle = 'bg-blue-100 cursor-pointer rounded-full flex items-center justify-center w-10 h-10 text-2xl text-blue-700 transition-all duration-200 hover:scale-110 active:scale-100'
-
-let product = [
-    {
-        id : 100,
-        title : "shoes",
-        image : shoes,
-        rating : 3.9,
-        price : 45,
-        quantity : 1,
-    },
-    {
-        id : 101,
-        title : "mobile",
-        image : mobile,
-        rating : 4.1,
-        price : 300,
-        quantity : 1,
-    },
-    {
-        id : 102,
-        title : "headphones",
-        image : headphones,
-        rating : 4.2,
-        price : 240,
-        quantity : 1,
-    },
-]
 
 function handleQuantity(products , setProducts , id , change){
     setProducts(
@@ -49,11 +21,14 @@ function handleRemove(products , setProducts , id){
 
 export default function Cart(){
 
-    let [products , setProducts] = useState(product)
+    const { products , setProducts } = useContext(CartContext)
 
     return(
         <div className='flex gap-6 items-center flex-col p-6'>
-            <h2 className='text-camel text-3xl font-semibold'>Shopping Cart</h2>
+            <div className='flex w-full justify-between'>
+                <h2 className='text-camel text-3xl font-semibold'>Shopping Cart</h2>
+                <Link to="/" className="border-[2px] py-2 px-4 rounded-lg transition-all duration-300 hover:scale-105 active:scale-100">Back <i className="fa-solid fa-arrow-right"></i></Link>
+            </div>
             <div className='flex flex-wrap gap-x-3 gap-y-6 justify-center'>
                 {
                 products.map((item)=>(
