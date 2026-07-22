@@ -4,41 +4,26 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 
 ---
 
-## Implemented
-* Navigation Bar
-* Project Structure Setup
-* React + Vite Configuration
-* Tailwind CSS Integration
-* Custom Color Theme
-* Home page hero section
-* Featured Products Section
-* Shop by Category (in progress)
-* Implement special offers section
-* Implement top sellers section
-* Add website footer
-* Responsive Featured Products and Shop by Category Sections
-* Fully responsive landing page
-* Interactive hamburger menu with toggle functionality
-* Add internal navigation links
-* Add React Router Navigation
-* Added navigation from Categories to Clothing page
-* Create Separate Components for Product Categories
-* Add View All Feature to Top Sellers Section
-* Create Shopping Cart UI
-* Complete Add to Cart functionality
+## Features
+
+- Modern and responsive UI
+- Product browsing by categories
+- Featured products, top sellers, and special offers
+- Shopping cart with Add to Cart functionality
+- Client-side routing with React Router
+- Mobile-friendly navigation
 
 ## Planned Features
 * Product Search
-* Wishlist
-* Shopping Cart
-* Fully Responsive Design
-* Fast Performance with Vite
-* Modern UI with Tailwind CSS
+* User authentication (Sign Up & Login)
 
 ---
 
 ## Preview
-Will Add a screenshot.
+
+### Home Page
+![Home Page](./src/assets/screenshots/home.png)
+![Categories](./src/assets/screenshots/categories.png)
 
 ---
 
@@ -50,7 +35,8 @@ Will Add a screenshot.
 * JavaScript (ES6+)
 * HTML5
 * CSS3
-* UUID
+* React Router
+* Context API
 
 ---
 
