@@ -14,7 +14,7 @@ import eight from '../assets/featured products/8.png'
 export const featuredProducts2 = [
   {
     id: 1,
-    title: "AeroFlex Knit Sneakers",
+    title: "Knit Sneakers",
     category: "Shoes",
     price: 89.99,
     rating: 4.8,
@@ -38,7 +38,7 @@ export const featuredProducts2 = [
   },
   {
     id: 4,
-    title: "Smart Robot Vacuum Pro",
+    title: "Vacuum Pro",
     category: "Home Appliances",
     price: 349.99,
     rating: 4.6,
@@ -70,7 +70,7 @@ export const featuredProducts2 = [
   },
   {
     id: 8,
-    title: "AirFlow Ionic Hair Dryer",
+    title: "Hair Dryer",
     category: "Beauty",
     price: 99.99,
     rating: 4.7,

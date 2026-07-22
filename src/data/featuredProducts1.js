@@ -7,7 +7,7 @@ import six from '../assets/featured products/6.png'
 
 export const featuredProducts1 = [
   {
-    title: "AeroFlex Knit Sneakers",
+    title: "Knit Sneakers",
     price: 89.99,
     rating: 4.8,
     image: one
@@ -25,7 +25,7 @@ export const featuredProducts1 = [
     image: three
   },
   {
-    title: "Smart Robot Vacuum Pro",
+    title: "Vacuum Pro",
     price: 349.99,
     rating: 4.6,
     image: four
@@ -37,7 +37,7 @@ export const featuredProducts1 = [
     image: five
   },
   {
-    title: "AirFlow Ionic Hair Dryer",
+    title: "Hair Dryer",
     price: 99.99,
     rating: 4.7,
     image: six

@@ -34,11 +34,26 @@ let product = [
     },
 ]
 
+
 export function CartProvider({ children }){
         let [products , setProducts] = useState(product)
 
+        function addToCart(item){
+            let exit = products.find((product)=>(product.id == item.id))
+
+            if(exit){
+                setProducts(
+                    products.map(product =>(
+                        product.id == item.id ? {...product , quantity: product.quantity+1} : product
+                    ))
+                )
+            }else{
+                setProducts([...products , {...item , quantity:1}])
+            }
+        }
+
         return(
-            <CartContext.Provider value={{products , setProducts}}>
+            <CartContext.Provider value={{products , setProducts , addToCart}}>
                 {children}
             </CartContext.Provider>
         )

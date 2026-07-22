@@ -25,6 +25,7 @@ A modern and responsive e-commerce web application built with **React**, **Vite*
 * Create Separate Components for Product Categories
 * Add View All Feature to Top Sellers Section
 * Create Shopping Cart UI
+* Complete Add to Cart functionality
 
 ## Planned Features
 * Product Search

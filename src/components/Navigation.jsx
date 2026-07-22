@@ -1,5 +1,4 @@
 
-
 import logo from '../assets/logo.png'
 import MenuIcon from './MenuIcon'
 import SearchIcon from './SearchIcon'
@@ -15,7 +14,7 @@ export default function Navigation(){
                 <li><a href="#header" className={navLink}>Home</a></li>
                 <li><a href="#categories" className={navLink}>Categories</a></li>
                 <li><a href="#deals" className={navLink}>Deals</a></li>
-                <li><a href="#shop" className={navLink}>Shop</a></li>
+                <li><Link to="/cart" className={navLink}>Cart</Link></li>
                 <li><a href="#footer" className={navLink}>Footer</a></li>
             </ul>
 

@@ -81,7 +81,7 @@ export const topSellers2 = [
   },
   {
     id: 52,
-    title: "Lightweight Running Shoes",
+    title: "Running Shoes",
     price: 94,
     rating: 4.8,
     image: ten,
@@ -95,7 +95,7 @@ export const topSellers2 = [
   },
   {
     id: 54,
-    title: "Classic Gold Watch",
+    title: "Gold Watch",
     price: 169,
     rating: 4.6,
     image: twelve,
@@ -109,7 +109,7 @@ export const topSellers2 = [
   },
   {
     id: 56,
-    title: "Comfort Lounge Chair",
+    title: "Lounge Chair",
     price: 389,
     rating: 4.8,
     image: fourteen,

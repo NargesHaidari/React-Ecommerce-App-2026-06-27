@@ -2,9 +2,12 @@
 
 import { Link } from 'react-router-dom'
 import {shoes} from '../data/shoes.js'
+import { useContext } from 'react'
+import { CartContext } from './context/CartContext.jsx'
 
 
 export default function Shoes(){
+    const { addToCart } = useContext(CartContext)
     return(
         <div className='py-6 px-6 flex flex-col gap-4 items-center'>
             <h3 className='text-camel font-semibold text-4xl'>Shoes</h3>
@@ -17,7 +20,7 @@ export default function Shoes(){
                         <h3>{item.title}</h3>
                         <p><i className="text-yellow-400 fa-solid fa-star"></i>{item.rating}</p>
                         <p>{item.price}$</p>
-                        <Link to="" className="border-[2px] py-1 px-3 rounded-lg transition-all duration-300 hover:scale-105 active:scale-100">Add to cart</Link>
+                        <button onClick={()=>{addToCart(item)}} className="border-[2px] py-1 px-3 rounded-lg transition-all duration-300 hover:scale-105 active:scale-100">Add to cart</button>
                     </div>
                 ))
                 }
