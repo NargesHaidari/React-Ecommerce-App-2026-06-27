@@ -7,7 +7,7 @@ import TopSellers from "./TopSellers";
 
 export default function Main(){
     return (
-        <main className="w-full">
+        <main className="w-full flex flex-col gap-20">
             <FeaturedProducts1/>
             <Categories/>
             {/* <div className="flex justify-between mb-20"> */}

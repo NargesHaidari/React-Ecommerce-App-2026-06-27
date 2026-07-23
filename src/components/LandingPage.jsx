@@ -5,7 +5,7 @@ import Footer from "./Footer.jsx"
 
 export default function LandingPage(){
     return (
-        <div>
+        <div className="flex flex-col gap-20">
             <Header />
             <Main />
             <Footer />

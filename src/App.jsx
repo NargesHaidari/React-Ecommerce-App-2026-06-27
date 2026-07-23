@@ -9,10 +9,12 @@ import Electronic from "./components/Electronic";
 import HomeLiving from "./components/HomeLiving.jsx";
 import TopSellers2 from "./components/TopSellers2.jsx";
 import Cart from "./components/Cart.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App(){
     return (
         <Router>
+            <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/featuredProducts2" element={<FeaturedProducts2/>} />
