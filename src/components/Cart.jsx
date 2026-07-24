@@ -6,6 +6,7 @@ import { CartContext } from './context/CartContext'
 let btnStyle = 'bg-blue-100 cursor-pointer rounded-full flex items-center justify-center w-10 h-10 text-2xl text-blue-700 transition-all duration-200 hover:scale-110 active:scale-100'
 
 function handleQuantity(products , setProducts , id , change){
+
     setProducts(
         products.map((product)=>(
             product.id == id ? {...product , quantity:Math.max(1 , product.quantity + change)} : product
@@ -22,6 +23,9 @@ function handleRemove(products , setProducts , id){
 export default function Cart(){
 
     const { products , setProducts } = useContext(CartContext)
+
+    console.log(products)
+    console.log(typeof products)
 
     return(
         <div className='flex gap-6 items-center flex-col p-6'>
