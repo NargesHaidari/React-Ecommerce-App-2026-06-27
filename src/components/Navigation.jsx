@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import logo from '../assets/logo.png'
 import MenuIcon from './MenuIcon'
 import SearchIcon from './SearchIcon'
@@ -6,24 +7,35 @@ import { Link } from 'react-router-dom'
 let navLink = "relative after:content-[''] after:absolute after:-bottom-1 after:w-0 hover:after:w-full hover:cursor-pointer after:h-0.5 after:left-0 after:right-0 after:bg-camel after:transition-all after:duration-300 after:ease-in-out"
 
 export default function Navigation(){
+
+    let [open , setOpen] = useState(false)
+
+        function handleSearchInput(){
+            if(open){
+                setOpen(false)
+            }else{
+                setOpen(true)
+            }
+        }
+
     return(
         <nav className='bg-white z-50 h-20 shadow-md flex justify-around fixed left-0 right-0 top-0'>
-            <div className='h-full inline-flex items-center'><img src={logo} alt="Logo-Image" className='h-3/4' /></div>
+            <div className={`h-full inline-flex items-center ${open ? 'max-[550px]:hidden' : ''}`}><img src={logo} alt="Logo-Image" className='h-3/4' /></div>
 
-            <ul className='hidden lg:flex gap-6 items-center text-2xl text-camel font-semibold'>
-                <li><a href="#header" className={navLink}>Home</a></li>
-                <li><a href="#categories" className={navLink}>Categories</a></li>
-                <li><a href="#deals" className={navLink}>Deals</a></li>
-                <li><Link to="/cart" className={navLink}>Cart</Link></li>
-                <li><a href="#footer" className={navLink}>Footer</a></li>
-            </ul>
+                <ul className='hidden lg:flex gap-6 items-center text-2xl text-camel font-semibold'>
+                    <li><a href="#header" className={navLink}>Home</a></li>
+                    <li><a href="#categories" className={navLink}>Categories</a></li>
+                    <li><a href="#deals" className={navLink}>Deals</a></li>
+                    <li><Link to="/cart" className={navLink}>Cart</Link></li>
+                    <li><a href="#footer" className={navLink}>Footer</a></li>
+                </ul>
 
-            <div className='inline-flex gap-2 items-center md:gap-4'>
-                <SearchIcon/>
-                <i className="fa-sharp fa-solid fa-heart hover:text-camel cursor-pointer transition-all duration-200"></i>
-                <Link to="/cart"><i className="fa-solid fa-cart-shopping hover:text-camel cursor-pointer transition-all duration-200"></i></Link>
-                <MenuIcon/>
-            </div>
+                <div className='inline-flex gap-2 flex-wrap items-center md:gap-4'>
+                    <SearchIcon onClick={handleSearchInput} open={open} />
+                    <i className={`fa-sharp fa-solid fa-heart hover:text-camel cursor-pointer transition-all duration-200 ${open ? 'max-[550px]:!hidden' : ''}`}></i>
+                    <Link to="/cart"><i className={`fa-solid fa-cart-shopping hover:text-camel cursor-pointer transition-all duration-200 ${open ? 'max-[550px]:!hidden' : ''}`}></i></Link>
+                    <MenuIcon searchOpen={open} />
+                </div>
         </nav>
     )
 }

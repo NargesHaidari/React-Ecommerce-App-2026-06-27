@@ -1,17 +1,6 @@
-import { useState } from "react"
 
 
-export default function SearchIcon(){
-
-    let [open , setOpen] = useState(false)
-
-    function handleSearchInput(){
-        if(open){
-            setOpen(false)
-        }else{
-            setOpen(true)
-        }
-    }
+export default function SearchIcon({onClick , open}){
 
     return(
     <>
@@ -20,7 +9,7 @@ export default function SearchIcon(){
             <div className="after:content-[''] after:w-full after:h-0.5 after:absolute after:bottom-0 after:left-0 after:bg-black after:transition-all after:duration-300 after:ease-in-out"></div>
         </div>
 
-        <i onClick={handleSearchInput} className="fa-solid fa-magnifying-glass hover:text-camel cursor-pointer transition-all duration-200"></i>
+        <i onClick={onClick} className={`fa-solid fa-magnifying-glass hover:text-camel cursor-pointer transition-all duration-200`}></i>
     </>
     )
 }
