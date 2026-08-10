@@ -1,4 +1,3 @@
-
 # ShikShop
 A modern and responsive e-commerce web application built with **React**, **Vite**, and **Tailwind CSS**. ShikShop provides a clean and intuitive shopping experience for fashion, electronics, and home products.
 

@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-import { topSellers2 } from "../data/topSellers2.js"
+import { topSellers2 } from "../data/products.js"
 import { useContext } from "react"
 import { CartContext } from "./context/CartContext.jsx"
 

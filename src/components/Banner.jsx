@@ -16,7 +16,7 @@ export default function Banner(){
 
                 <p className='text-xl'>Fashion for Women & Men | Shoes | Home Essentials...</p>
 
-                <button className='text-white bg-camel py-2 px-4 rounded text-1xl duration-300 transition-all hover:scale-105 hover:cursor-pointer active:scale-100 md:text-2xl'>Shop Now</button>
+                <button className='text-white bg-camel py-2 px-4 rounded text-1xl md:text-2xl'>Shop Now</button>
             
             </div>
 

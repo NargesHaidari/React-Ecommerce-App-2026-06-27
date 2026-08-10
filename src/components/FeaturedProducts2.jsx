@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { featuredProducts2 } from '../data/featuredProducts2.js'
+import { featuredProducts2 } from '../data/products.js'
 import { useContext } from 'react'
 import { CartContext } from './context/CartContext.jsx'
 

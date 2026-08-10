@@ -2,7 +2,7 @@
 
 import { Link } from 'react-router-dom'
 
-import { featuredProducts1 } from '../data/featuredProducts1.js'
+import { featuredProducts1 } from '../data/products.js'
 import ProductCard from './ProductCard.jsx'
 
 export default function FeaturedProducts1(){

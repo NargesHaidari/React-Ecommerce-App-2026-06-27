@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import { categoriesProducts } from '../data/categoriesProducts.js'
+import { categoriesProducts } from '../data/products.js'
 
 export default function FeaturedProducts(){
         

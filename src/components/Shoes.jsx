@@ -1,7 +1,7 @@
 
 
 import { Link } from 'react-router-dom'
-import {shoes} from '../data/shoes.js'
+import {shoes} from '../data/products.js'
 import { useContext } from 'react'
 import { CartContext } from './context/CartContext.jsx'
 

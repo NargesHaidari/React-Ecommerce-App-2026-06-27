@@ -2,7 +2,7 @@
 
 
 import { Link } from 'react-router-dom'
-import {electronic} from '../data/electronic.js'
+import {electronic} from '../data/products.js'
 import { useContext } from 'react'
 import { CartContext } from './context/CartContext.jsx'
 

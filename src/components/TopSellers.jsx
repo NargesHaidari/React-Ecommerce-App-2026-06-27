@@ -1,6 +1,6 @@
 
 
-import { topSellers } from "../data/topSellers";
+import { topSellers } from "../data/products.js";
 import { Link } from "react-router-dom";
 
 export default function TopSellers(){
