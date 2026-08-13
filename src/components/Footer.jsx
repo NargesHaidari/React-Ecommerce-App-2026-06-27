@@ -1,5 +1,6 @@
 
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 let headingThree = 'text-camel font-bold text-3xl mb-4'
 
@@ -22,10 +23,10 @@ export default function Footer(){
                 <h3 className={headingThree}>Shop</h3>
 
                 <ul>
-                    <li><a href="/clothing">Clothing</a></li>
-                    <li><a href="/shoes">Shoes</a></li>
-                    <li><a href="/electronics">Electronics</a></li>
-                    <li><a href="/home-living">Home & Living</a></li>
+                    <li><Link to="/clothing">Clothing</Link></li>
+                    <li><Link to="/shoes">Shoes</Link></li>
+                    <li><Link to="/electronics">Electronics</Link></li>
+                    <li><Link to="/home&living">Home & Living</Link></li>
                 </ul>
             </div>
 

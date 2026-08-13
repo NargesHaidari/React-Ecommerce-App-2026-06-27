@@ -13,7 +13,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App(){
     return (
-        <Router>
+        <Router basename="/React-Ecommerce-App">
             <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<LandingPage />} />
@@ -22,7 +22,6 @@ export default function App(){
                 <Route path="/shoes" element={<Shoes />}/>
                 <Route path="/electronics" element={<Electronic />}/>
                 <Route path="/home&living" element={ <HomeLiving />}/>
-                <Route path="/topSellers2" element={<TopSellers2/>} />
                 <Route path="/topSellers2" element={<TopSellers2/>} />
                 <Route path="/cart" element={<Cart />} />
             </Routes>
